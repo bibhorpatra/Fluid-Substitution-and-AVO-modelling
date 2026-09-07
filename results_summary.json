@@ -1,0 +1,68 @@
+{
+  "well": {
+    "depth_top_m": 2000.0,
+    "depth_base_m": 2200.0,
+    "reservoir_top_m": 2140.0,
+    "reservoir_base_m": 2156.0
+  },
+  "in_situ_conditions_at_reservoir": {
+    "temperature_c": 72.44,
+    "pressure_mpa": 21.48
+  },
+  "shale_cap_properties": {
+    "vp": 2583.5719078390243,
+    "vs": 1144.035249101996,
+    "rho": 2167.000000043865
+  },
+  "underlying_shale_properties": {
+    "vp": 2592.2767886079473,
+    "vs": 1156.9952533258202,
+    "rho": 2164.7881890660847
+  },
+  "fluid_properties_at_reservoir_conditions": {
+    "brine": {
+      "rho": 1010.3456222653433,
+      "k": 2673333363.9949646
+    },
+    "oil": {
+      "rho": 840.3040244648316,
+      "k": 1577166623.5180426
+    },
+    "gas": {
+      "rho": 140.76702225871082,
+      "k": 26850000.0
+    }
+  },
+  "reservoir_properties": {
+    "BRINE": {
+      "vp": 2928.8930066492003,
+      "vs": 1636.6632567427814,
+      "rho": 2093.1202833554066,
+      "ai": 6130525.359995243,
+      "vpvs": 1.7895513903563525,
+      "avo_intercept": 0.04530151510608679,
+      "avo_gradient": -0.28034276151193305,
+      "avo_class": "Class I (high-impedance sand, amplitude decreases with offset)"
+    },
+    "OIL": {
+      "vp": 2804.2839185676103,
+      "vs": 1659.5389644116892,
+      "rho": 2035.7974655049509,
+      "ai": 5708954.093976233,
+      "vpvs": 1.6897969729573274,
+      "avo_intercept": 0.009746815401324702,
+      "avo_gradient": -0.3235167419384186,
+      "avo_class": "Class II / IIp (near-zero impedance contrast, possible polarity reversal with offset)"
+    },
+    "GAS": {
+      "vp": 2681.325712131786,
+      "vs": 1764.8806604268154,
+      "rho": 1799.9768062763726,
+      "ai": 4826324.091909693,
+      "vpvs": 1.5192674339143923,
+      "avo_intercept": -0.07395253628279318,
+      "avo_gradient": -0.3896839216185746,
+      "avo_class": "Class III (low-impedance sand, amplitude increases with offset -- classic bright-spot)"
+    }
+  }
+}

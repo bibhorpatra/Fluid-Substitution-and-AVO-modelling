@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+lasio>=0.31
+bruges>=0.5
+jupyter>=1.0
+nbconvert>=7.0
+nbformat>=5.9
+ipykernel>=6.25
